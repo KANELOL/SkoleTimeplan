@@ -7,11 +7,12 @@ namespace SkoleAppDinaOgKarsten.Tid_og_Dato
 {
     class SubjectTime
     {
-        //AllAvailableTimeStamps _time;
-        //9, = occupied;
-        //10, = free;
-        //11, = occupied;
-        //12;
-        //Timeplan => Sjekkfag, tid og rom. Hvis det kræsjer blir det ikke lagt til fag til et rom. Men kommer en feilmelding.
+        public int _time;
+        public Subject _subject;
+
+        public SubjectTime(int _time)
+        {
+
+        }
     }
 }

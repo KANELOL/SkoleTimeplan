@@ -40,7 +40,14 @@ namespace SkoleAppDinaOgKarsten
             11     Matte             It                Fransk/Tysk    Samfunn         It
             12     Samfunnsfag       Fransk/Tysk       Gym            Matte           It
              */
-
+            /*School newSchool = new School();
+             * newSchool.Build(int Rooms, int classcapacity, teachers);*
+            newSchool.CreateSubjectFields();
+            newSchool.HireTeachers();
+            newSchool.createTimeTable();
+               newSchool.AssignTimetable after wishes();
+            */
+            //Session - Subject, Teacher, Rom
             Console.WriteLine("Dette er en test for timeplan");
         }
     }

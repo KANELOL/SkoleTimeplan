@@ -5,10 +5,9 @@ using SkoleAppDinaOgKarsten.Tid_og_Dato;
 
 namespace SkoleAppDinaOgKarsten.Mennesker
 {
-    class Student
+   public class Student
     {
         String _name;
         Schedule _schedule;
-
     }
 }

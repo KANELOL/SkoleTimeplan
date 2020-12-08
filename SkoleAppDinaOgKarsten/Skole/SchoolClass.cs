@@ -7,9 +7,15 @@ using SkoleAppDinaOgKarsten.Tid_og_Dato;
 
 namespace SkoleAppDinaOgKarsten.Skole
 {
-    class SchoolClass
+   public class SchoolClass
     {
-        Teacher _teacher;
-        List<Student> _students;
+        public  Teacher _teacher;
+        public List<Student> _students;
+
+        public SchoolClass(Teacher teacher)
+        {
+            _teacher = teacher;
+            _students = new List<Student>();
+        } 
     }
 }

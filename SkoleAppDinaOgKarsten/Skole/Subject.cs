@@ -6,10 +6,12 @@ namespace SkoleAppDinaOgKarsten.Skole
 {
     public class Subject
     {
-       public String _name;
+        public String _name;
+        public int _classHours;
 
-        public Subject(String name)
+        public Subject(String name, int classHours)
         {
+            _classHours = classHours;
             _name = name;
         }
     }

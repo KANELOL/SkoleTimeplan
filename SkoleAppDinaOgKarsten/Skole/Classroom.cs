@@ -14,16 +14,18 @@ namespace SkoleAppDinaOgKarsten.Skole
         Schedule _roomSchedule;
         int _capacity;
         SchoolClass _currentClass;
+        bool isAvailable;
 
         public Classroom(int capacity)
         {
-            _classTeacher = _currentClass._teacher;
+            //_classTeacher = _currentClass._teacher;
             _capacity = capacity;
         }
 
-      public bool  IsOccupied()
+        public bool  IsAvailable()
         {
-            return true;
+            isAvailable = true;
+            return isAvailable;
         }
     }
 }
